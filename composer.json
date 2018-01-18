@@ -1,0 +1,19 @@
+{
+    "name": "1611194872/houdun",
+    "description": "this is a exercise",
+    "license": "tim",
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    },
+    "authors": [
+        {
+            "name": "hj",
+            "email": "1611194872@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
