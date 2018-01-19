@@ -11,5 +11,14 @@
     "minimum-stability": "dev",
     "require": {
         "gregwar/captcha": "dev-master"
-    }
+    },
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    },
+    "files":[
+        "core/functions.php"
+    ]
 }
